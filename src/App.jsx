@@ -451,10 +451,10 @@ const AIAssistantModal = ({ onClose }) => {
 const PhotoGallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const galleryImages = [
-    { url: "/SAURABH1.jpg", caption: "Global Climate Action" },
-    { url: "/SAURABH2.jpg", caption: "Strategic Policy Leadership" },
-    { url: "/SAURABH3.jpg", caption: "International Delegations" },
-    { url: "/SAURABH4.jpg", caption: "High-Level Engagements" }
+    { url: "/SAURABH1.jpg" },
+    { url: "/SAURABH2.jpg" },
+    { url: "/SAURABH3.jpg" },
+    { url: "/SAURABH4.jpg" }
   ];
 
   useEffect(() => {
